@@ -1,0 +1,6 @@
+dogtoy/pre-trained-models/*
+
+# ignore files and sub dirs in the /fish directory
+dogtoy/models/my_ssd_resnet50_v1_fpn/*
+# but do not ignore the config.fish file
+!dogtoy/models/my_ssd_resnet50_v1_fpn/pipeline.config
